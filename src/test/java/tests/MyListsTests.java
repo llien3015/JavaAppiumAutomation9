@@ -71,7 +71,7 @@ public class MyListsTests extends CoreTestCase
 
 // Задание 17
     @Test
-    public void testCheckSavingSecondArticleInFavorite() {
+    public void testSaveFirstArticleToMyList2() {
         SearchPageObject SearchPageObject = SearchPageObjectFactory.get(driver);
 
         SearchPageObject.initSearchInput();
